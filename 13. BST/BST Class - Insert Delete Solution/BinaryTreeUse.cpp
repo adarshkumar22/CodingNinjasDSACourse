@@ -2,6 +2,7 @@
 #include "BinaryTreeNode.h"
 #include "BinarySearchTree.h"
 #include <queue>
+#include <climits>
 using namespace std;
 
 BinaryTreeNode<int>* takeInputLevelWise() {
@@ -298,4 +299,3 @@ int main() {
 	b.deleteData(100);
 	b.printTree();
 }
-
